@@ -1,0 +1,7 @@
+
+requests>=2.31
+pandas>=2.2
+numpy>=1.26           # pulled in by pandas anyway, but listed explicitly
+beautifulsoup4>=4.12  # provides the “bs4” import
+lxml>=4.9             # fast HTML parser for BeautifulSoup
+tenacity>=8.2         # retry / back-off wrapper
